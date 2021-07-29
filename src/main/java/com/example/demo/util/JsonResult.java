@@ -34,7 +34,6 @@ public class JsonResult<T> {
     public JsonResult(T data) {
         this.data = data;
         this.code = "0";
-        System.out.println("cs");
 
     }
 
